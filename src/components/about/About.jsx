@@ -34,7 +34,7 @@ const About = () => {
            <article className='about_card'>
          <AiFillFolderOpen className='about_icon'></AiFillFolderOpen>
              <h5>Project </h5>
-             <small>10+ completed </small>
+             <small>20+ completed </small>
            </article>
           </div>
           <p>I am Md Jony Miah. I’ve been working on web app development for two years now, while recently graduated from university. Had my own projects, coded mostly in JavaScript and Python. I learned a lot, both in college and while working on the apps. Now I am looking for a job.</p>

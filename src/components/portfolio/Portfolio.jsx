@@ -35,14 +35,18 @@ const Portfolio = () => {
       <div className="container portfolio_container">
         <article  className='portfolio_item'>
           <div className="portfolio_item-image">
-            <img src={IMG1} alt="" />
+            <img src="https://i.ibb.co/NCknHDp/profilecarsss.png" alt="" />
+
+
+
           </div>
-          <h3>My Online Portfolio  </h3>
+          <h3>Damigari.com  </h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com/Zunaid-jony/portfolio"className='btn'>Github</a>
-            <a href="https://dulcet-praline-19446b.netlify.app/#" className='btn btn-primary' target='blank'> Live Demo</a>
+            <a href="https://github.com/Zunaid-jony"className='btn'>Github</a>
+            <a href="https://damigari.com/" className='btn btn-primary' target='blank'> Live Demo</a>
           </div>
         </article>
+
 
         <article  className='portfolio_item'>
           <div className="portfolio_item-image">
@@ -52,6 +56,36 @@ const Portfolio = () => {
           <div className="portfolio_item-cta">
             <a href="https://github.com/Zunaid-jony/bebsha-lagbe-jony"className='btn'>Github</a>
             <a href="https://stunning-narwhal-336632.netlify.app/" className='btn btn-primary' target='blank'> Live Demo</a>
+          </div>
+        </article>
+
+        {/* update */}
+
+
+        <article  className='portfolio_item'>
+          <div className="portfolio_item-image">
+            <img src="https://i.ibb.co/PgX7RPC/islam.png" alt="" />
+           
+          </div>
+          <h3>Islamic scholars  </h3>
+          <div className="portfolio_item-cta">
+            <a href="https://github.com/Zunaid-jony"className='btn'>Github</a>
+            <a href="https://darulmuttaquine.vercel.app/" className='btn btn-primary' target='blank'> Live Demo</a>
+          </div>
+        </article>
+        {/* update 2 */}
+
+
+        <article  className='portfolio_item'>
+          <div className="portfolio_item-image">
+            <img src="https://i.ibb.co/RSn3KLf/DOCTORSPORTL.png" alt="" />
+
+           
+          </div>
+          <h3>Doctors-portal  </h3>
+          <div className="portfolio_item-cta">
+            <a href="https://github.com/Zunaid-jony/doctors-portal-client1"className='btn'>Github</a>
+            <a href="https://doctors-portal-5f02b.web.app/" className='btn btn-primary' target='blank'> Live Demo</a>
           </div>
         </article>
 
